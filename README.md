@@ -73,14 +73,15 @@ The pipeline consists of the following stages (see attached figures):
 
 2. **Configure Your Environment**
 
-   * Download YOLOv12n weights and LLaVA-OneVision-Qwen2 models as described in the scripts.
+   * Download YOLOv12n weights from the Repo
+   * LLaVA-OneVision-Qwen2 model and other VLM scripts are provided in Repo  
    * Set your OpenAI API key for GPT-4o mini  as an environment variable.
    * Optionally, configure DJI drone connection details or set to simulation (test video) mode.
 
 3. **Run the Pipeline**
 
    ```sh
-   python complete_integration_pipeline.py
+   python main/complete_integration_pipeline.py
    ```
 
    * The script will:
