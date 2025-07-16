@@ -10,7 +10,10 @@
 * [Transformers (HuggingFace)](https://huggingface.co/docs/transformers/index)
 * DJI SDK/Cloud API or simulation mode
 * OpenAI GPT-4o API key
-
+*Training, validation, and testing proce-
+dures were carried out on an NVIDIA A100 80GB PCIe
+(81,070 MiB) GPU. The software environment was Py-
+Torch 2.5.1+cu118 and Python 3.12.8. 
 This repo is related to implementation of highway accident management system that was implemented using hardware
 
 
@@ -22,7 +25,7 @@ This repo is related to implementation of highway accident management system tha
 
    ```sh
    git clone  https://github.com/afaq005/Highway_Accident_Management_Hardware_Implementation.git
-   cd autonomous-highway-incident
+   cd Highway_Accident_Management_Hardware_Implementation
    ```
 
 2. **Configure Your Environment**
