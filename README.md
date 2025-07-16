@@ -14,80 +14,7 @@
 This repo is related to implementation of highway accident management system that was implemented using hardware
 
 
-## Framework
 
-![figm](https://github.com/user-attachments/assets/95153832-18b1-4293-a6ff-f332715b9288)
-
-## Hardware Implementation
-
-![fig_hardware](https://github.com/user-attachments/assets/ce5a3017-a044-45e9-b4bf-6ff468b71efc)
-
-
-##### Download the dataset from dataset.py
-##### All the files related to yolo variants are listed above, install ultralytics latest version before usage
-##### Yolov12n model pretrained weights are uploaded
-
-
- **comprehensive README.md**---
-
-# Autonomous Drone-based Highway Incident Management System
-
-## Overview
-
-This project presents a fully autonomous highway accident management system powered by a DJI Matrice 30T drone, advanced object detection, and multi-modal AI for **real-time accident detection, analysis, and emergency alert generation**. The system fuses:
-
-* **DJI Matrice 30T** for aerial incident scene acquisition and autonomous navigation.
-* **YOLOv12n** for robust, real-time detection of accidents (e.g., collisions, fires).
-* **LLaVA-OneVision-Qwen2** (VLM) for visual scene interpretation and rich description generation.
-* **GPT-4o mini** (LLM) for automated, concise alerting and emergency action recommendation.
-
-This solution aims to reduce incident response times and maximize situational awareness for highway safety teams and first responders.
-
----
-
-## Abstract
-
-> Highway accidents remain a critical public safety challenge, where delayed response times intensify injury severity and fatalities. Traditional systems relying on manual reporting suffer from inefficiencies and critical delays during emergencies. This paper presents an autonomous drone-based highway incident management system that integrates advanced aerial technology with Vision-Language Models (VLMs) and Large Language Models (LLMs) to enable rapid detection, analysis, and response.
->
-> The framework employs a DJI Matrice 30T drone equipped with a dock station for autonomous deployment for incident analysis by yielding incident coordinates provided by authorities. Upon arrival, real-time video is analyzed using an optimized fine-tuned YOLOv12n model selected after rigorous comparison of nine YOLO variants to detect incidents such as collisions and fires with high precision.
->
-> To generate actionable intelligence, high-confidence video frames are processed using a hybrid vision-language pipeline comprising of LLaVA-OneVision-Qwen2 and GPT-4o API. This combination yields detailed natural language descriptions and structured summaries of incident scenes, offering enhanced contextual awareness of the incident site. By combining autonomous drone navigation, real-time object detection, VLM-based scene interpretation, and LLM-driven summarization, this end-to-end solution enhances situational awareness and decision-making for emergency responders. These results demonstrate the practical value of integrating multi-modal AI with UAVs in critical safety domains, laying the groundwork for scalable, intelligent transportation infrastructure and next-generation emergency response systems.
-
----
-
-## System Workflow
-
-The pipeline consists of the following stages (see attached figures):
-
-1. **Incident Scenario Input**
-   Incident reports or highway authorities provide a transcript or notification (possibly containing GPS coordinates).
-
-2. **Coordinate Extraction**
-   The system uses a large language model (GPT-4o mini) to extract precise latitude and longitude from the transcript.
-
-3. **Autonomous Drone Deployment**
-
-   * The DJI Matrice 30T drone, with docking station, is automatically dispatched to the incident coordinates.
-   * The route planner calculates the optimal path and initiates drone takeoff.
-   * (Optionally: in simulation mode, a pre-recorded video can be used.)
-
-4. **Live Video Feedback & Analysis**
-
-   * The drone streams real-time video of the scene back to the server.
-   * This feed is processed by a fine-tuned YOLOv12n model, which was selected after comparison with nine other YOLO variants, for reliable detection of accidents, collisions, or fires.
-
-5. **Frame Selection & VLM Description**
-
-   * Frames with high-confidence accident detections are saved.
-   * Each frame is passed through LLaVA-OneVision-Qwen2 (Vision-Language Model), generating detailed natural language descriptions that summarize the scene context, accident type, and observed risks.
-
-6. **LLM-driven Summarization & Alerting**
-
-   * All generated scene descriptions are collectively summarized using GPT-4o mini.
-   * The output is a concise, actionable incident summary and suggested emergency response (e.g., deploy ambulance, secure area), ready for dispatch to rescue teams or traffic management centers.
-
- 
- 
 ## Key Components
 
 ### 1. **DJI Matrice 30T Integration**
@@ -180,6 +107,82 @@ The pipeline consists of the following stages (see attached figures):
 
 ---
 
+
+
+## Framework
+
+![figm](https://github.com/user-attachments/assets/95153832-18b1-4293-a6ff-f332715b9288)
+
+## Hardware Implementation
+
+![fig_hardware](https://github.com/user-attachments/assets/ce5a3017-a044-45e9-b4bf-6ff468b71efc)
+
+
+##### Download the dataset from dataset.py
+##### All the files related to yolo variants are listed above, install ultralytics latest version before usage
+##### Yolov12n model pretrained weights are uploaded
+
+
+ **comprehensive README.md**---
+
+# Autonomous Drone-based Highway Incident Management System
+
+## Overview
+
+This project presents a fully autonomous highway accident management system powered by a DJI Matrice 30T drone, advanced object detection, and multi-modal AI for **real-time accident detection, analysis, and emergency alert generation**. The system fuses:
+
+* **DJI Matrice 30T** for aerial incident scene acquisition and autonomous navigation.
+* **YOLOv12n** for robust, real-time detection of accidents (e.g., collisions, fires).
+* **LLaVA-OneVision-Qwen2** (VLM) for visual scene interpretation and rich description generation.
+* **GPT-4o mini** (LLM) for automated, concise alerting and emergency action recommendation.
+
+This solution aims to reduce incident response times and maximize situational awareness for highway safety teams and first responders.
+
+---
+
+## Abstract
+
+> Highway accidents remain a critical public safety challenge, where delayed response times intensify injury severity and fatalities. Traditional systems relying on manual reporting suffer from inefficiencies and critical delays during emergencies. This paper presents an autonomous drone-based highway incident management system that integrates advanced aerial technology with Vision-Language Models (VLMs) and Large Language Models (LLMs) to enable rapid detection, analysis, and response.
+>
+> The framework employs a DJI Matrice 30T drone equipped with a dock station for autonomous deployment for incident analysis by yielding incident coordinates provided by authorities. Upon arrival, real-time video is analyzed using an optimized fine-tuned YOLOv12n model selected after rigorous comparison of nine YOLO variants to detect incidents such as collisions and fires with high precision.
+>
+> To generate actionable intelligence, high-confidence video frames are processed using a hybrid vision-language pipeline comprising of LLaVA-OneVision-Qwen2 and GPT-4o API. This combination yields detailed natural language descriptions and structured summaries of incident scenes, offering enhanced contextual awareness of the incident site. By combining autonomous drone navigation, real-time object detection, VLM-based scene interpretation, and LLM-driven summarization, this end-to-end solution enhances situational awareness and decision-making for emergency responders. These results demonstrate the practical value of integrating multi-modal AI with UAVs in critical safety domains, laying the groundwork for scalable, intelligent transportation infrastructure and next-generation emergency response systems.
+
+---
+
+## System Workflow
+
+The pipeline consists of the following stages (see attached figures):
+
+1. **Incident Scenario Input**
+   Incident reports or highway authorities provide a transcript or notification (possibly containing GPS coordinates).
+
+2. **Coordinate Extraction**
+   The system uses a large language model (GPT-4o mini) to extract precise latitude and longitude from the transcript.
+
+3. **Autonomous Drone Deployment**
+
+   * The DJI Matrice 30T drone, with docking station, is automatically dispatched to the incident coordinates.
+   * The route planner calculates the optimal path and initiates drone takeoff.
+   * (Optionally: in simulation mode, a pre-recorded video can be used.)
+
+4. **Live Video Feedback & Analysis**
+
+   * The drone streams real-time video of the scene back to the server.
+   * This feed is processed by a fine-tuned YOLOv12n model, which was selected after comparison with nine other YOLO variants, for reliable detection of accidents, collisions, or fires.
+
+5. **Frame Selection & VLM Description**
+
+   * Frames with high-confidence accident detections are saved.
+   * Each frame is passed through LLaVA-OneVision-Qwen2 (Vision-Language Model), generating detailed natural language descriptions that summarize the scene context, accident type, and observed risks.
+
+6. **LLM-driven Summarization & Alerting**
+
+   * All generated scene descriptions are collectively summarized using GPT-4o mini.
+   * The output is a concise, actionable incident summary and suggested emergency response (e.g., deploy ambulance, secure area), ready for dispatch to rescue teams or traffic management centers.
+
+ 
+ 
  
 
 ## Contact
