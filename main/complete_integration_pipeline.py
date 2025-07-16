@@ -32,7 +32,7 @@ USE_TEST_VIDEO = True  # Set to False for RTSP/Drone mode
 TEST_VIDEO_PATH = "/home/hasan/drone_p3_implementation/two_det_videos/v7e_orig.mp4" #"/path/to/sample_accident_video.mp4"  # CHANGE THIS
 
 # RTSP stream for drone
-RTSP_URL = "rtsp://user:password@192.168.23.166:8554/streaming/live/1"  # CHANGE THIS
+RTSP_URL = "rtsp://user:password@192.168.23.166:8554/streaming/live/1"   
 
 # Accident frames folder (all saved images go here)
 ACCIDENT_FRAMES_FOLDER = "accident_frames"
