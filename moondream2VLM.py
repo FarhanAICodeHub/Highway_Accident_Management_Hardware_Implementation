@@ -3,7 +3,7 @@
 
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from PIL import Image
-import torch  # Import PyTorch for device management
+import torch  # Import PyTorch for device  
 import os
 
 # Set paths
