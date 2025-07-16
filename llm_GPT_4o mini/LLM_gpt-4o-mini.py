@@ -2,7 +2,7 @@ import openai
 
 # Initialize OpenAI API key
 openai.api_key =  ""
-# Path to the .txt file with descriptions
+# Path to the .txt file 
 file_path = "/home/hasan/drone_p3_implementation/image_descriptions.txt"
 
 
