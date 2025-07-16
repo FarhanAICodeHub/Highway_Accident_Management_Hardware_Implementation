@@ -82,6 +82,7 @@ The pipeline consists of the following stages (see attached figures):
    * moondream2VLM.py
    * GPT-4o mini script is given as LLM_gpt-4o-mini.py
    * Set your OpenAI API key for GPT-4o mini  as an environment variable.
+   * Test videos are also provided in test_videos folder for testing
    * Optionally, configure DJI drone connection details or set to simulation (test video) mode.
 
 3. **Run the Pipeline**
