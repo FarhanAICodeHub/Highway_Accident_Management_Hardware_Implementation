@@ -16,7 +16,7 @@ model = AutoModelForVision2Seq.from_pretrained(
 
 # Folder containing images
 image_folder = "/home/hasan/drone_p3_implementation/accident_frames/"
-image_files = sorted([os.path.join(image_folder, f) for f in os.listdir(image_folder) if f.endswith((".jpg", ".png"))])[:10]  # Select first 10 images
+image_files = sorted([os.path.join(image_folder, f) for f in os.listdir(image_folder) if f.endswith((".jpg", ".png"))])[:10]  # Select first 10 image 
 
 # Output file to save descriptions
 output_file = "/home/hasan/drone_p3_implementation/accident_descriptions.txt"
