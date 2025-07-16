@@ -15,41 +15,13 @@ This repo is related to implementation of highway accident management system tha
 
 
 
-## Key Components
-
-### 1. **DJI Matrice 30T Integration**
-
-* Fully autonomous takeoff, navigation, and landing via SDK.
-* Route planning to GPS coordinates provided by LLM extraction.
-* Live RTSP video streaming, compatible with both real drone and test video modes.
-
-### 2. **YOLOv12n Object Detection**
-
-* Fine-tuned on custom incident datasets for robust highway accident/fire detection.
-* Supports real-time inference and high-confidence frame filtering.
-* Automatically saves key frames for downstream analysis.
-
-### 3. **LLaVA-OneVision-Qwen2 (VLM)**
-
-* Converts key images into rich, human-readable descriptions.
-* Captures visual context, accident risk, bystanders, and environmental cues.
-
-### 4. **GPT-4o mini (LLM)**
-
-* Extracts coordinates from incident transcripts.
-* Summarizes VLM outputs to generate alert-level summaries and recommended emergency actions.
-* Designed for structured, actionable outputs compatible with rescue center needs.
-
----
-
-
 
 ### **Quick Start**
 
 1. **Clone the Repository**
 
    ```sh
-   git clone https://github.com/your-repo/autonomous-highway-incident
+   git clone  https://github.com/afaq005/HighwayAccident Management Hardware Implementation.git
    cd autonomous-highway-incident
    ```
 
@@ -104,6 +76,34 @@ This repo is related to implementation of highway accident management system tha
 * Integrate with live DJI drone using provided Python interface or REST API.
 * Fine-tune VLM/LLM components for new domains (e.g., fire, disaster, search and rescue).
 * Build a web dashboard or REST API for real-time alert delivery.
+
+---
+
+
+## Key Components
+
+### 1. **DJI Matrice 30T Integration**
+
+* Fully autonomous takeoff, navigation, and landing via SDK.
+* Route planning to GPS coordinates provided by LLM extraction.
+* Live RTSP video streaming, compatible with both real drone and test video modes.
+
+### 2. **YOLOv12n Object Detection**
+
+* Fine-tuned on custom incident datasets for robust highway accident/fire detection.
+* Supports real-time inference and high-confidence frame filtering.
+* Automatically saves key frames for downstream analysis.
+
+### 3. **LLaVA-OneVision-Qwen2 (VLM)**
+
+* Converts key images into rich, human-readable descriptions.
+* Captures visual context, accident risk, bystanders, and environmental cues.
+
+### 4. **GPT-4o mini (LLM)**
+
+* Extracts coordinates from incident transcripts.
+* Summarizes VLM outputs to generate alert-level summaries and recommended emergency actions.
+* Designed for structured, actionable outputs compatible with rescue center needs.
 
 ---
 
