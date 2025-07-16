@@ -74,7 +74,13 @@ The pipeline consists of the following stages (see attached figures):
 2. **Configure Your Environment**
 
    * Download YOLOv12n weights from the Repo
-   * LLaVA-OneVision-Qwen2 model and other VLM scripts are provided in Repo  
+     YOLO_model_weights
+   * All the Yolo model variants training, validation, evalution metrics scripts are provided in Yolo_models_training folder
+   * LLaVA-OneVision-Qwen2 model and other VLM scripts are provided in Repo 
+   * LLM_gpt-4o-mini.py
+   * SmolVLM.py
+   * moondream2VLM.py
+   * GPT-4o mini script is given as LLM_gpt-4o-mini.py
    * Set your OpenAI API key for GPT-4o mini  as an environment variable.
    * Optionally, configure DJI drone connection details or set to simulation (test video) mode.
 
