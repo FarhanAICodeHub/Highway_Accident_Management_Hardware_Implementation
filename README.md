@@ -28,13 +28,13 @@ This repo is related to implementation of highway accident management system tha
 2. **Configure Your Environment**
 
    * Download YOLOv12n weights and LLaVA-OneVision-Qwen2 models as described in the scripts.
-   * Set your OpenAI API key for GPT-4o mini in `config.py` or as an environment variable.
+   * Set your OpenAI API key for GPT-4o mini  as an environment variable.
    * Optionally, configure DJI drone connection details or set to simulation (test video) mode.
 
 3. **Run the Pipeline**
 
    ```sh
-   python main.py
+   python complete_integration_pipeline.py
    ```
 
    * The script will:
