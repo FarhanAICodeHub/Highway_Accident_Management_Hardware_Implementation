@@ -164,17 +164,6 @@ The pipeline consists of the following stages (see attached figures):
 ![fig_hardware](https://github.com/user-attachments/assets/ce5a3017-a044-45e9-b4bf-6ff468b71efc)
 
 
-##### Download the dataset from dataset.py
-##### All the files related to yolo variants are listed above, install ultralytics latest version before usage
-##### Yolov12n model pretrained weights are uploaded
-
-
- **comprehensive README.md**---
-
-# Autonomous Drone-based Highway Incident Management System
-
-
- 
  
 
 ## Contact
