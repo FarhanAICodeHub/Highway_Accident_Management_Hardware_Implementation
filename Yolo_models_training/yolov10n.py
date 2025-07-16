@@ -6,7 +6,7 @@ from ultralytics import YOLO
 # Build a YOLOv10n model from scratch
 #model = YOLO("yolov10n.yaml")
 
-# Build a YOLOv10n model from pretrained weight
+# Build a YOLOv10n model from pretrained  weights
 model = YOLO("yolov10n.pt")
 
 # Display model information (optional)
