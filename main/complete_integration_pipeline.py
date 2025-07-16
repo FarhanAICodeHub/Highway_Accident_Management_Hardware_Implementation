@@ -39,7 +39,7 @@ ACCIDENT_FRAMES_FOLDER = "accident_frames"
 
 # Model paths
 YOLO_WEIGHTS = "/home/hasan/drone_p3_implementation/runs/detect/yolov12n_train/weights/best.pt" #"yolov12/best.pt"  # or yolov12n/best.pt, whatever you have
-VLM_MODEL_ID = "llava-hf/llava-onevision-qwen2-0.5b-ov-hf"
+VLM_MODEL_ID = "llava-hf/llava-onevision-qwen2-0.5b-ov-hf" 
 
 # ========== 1. Extract Coordinates with GPT-4o mini ==============
 
