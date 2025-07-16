@@ -3,7 +3,7 @@ import torch
 from PIL import Image
 import os
 
-# Set device
+# Set device gpu/cpu
 DEVICE = "cuda:1" if torch.cuda.is_available() else "cpu"
 
 # Load model and processor
