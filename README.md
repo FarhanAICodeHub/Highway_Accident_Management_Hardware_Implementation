@@ -1,5 +1,16 @@
 # Multi-Modal Autonomous Drone System for Real-Time Highway Incident Detection and Analysis
 
+## Usage Instructions
+
+### **Prerequisites**
+
+* Python 3.8+ environment
+* NVIDIA GPU (recommended for YOLO and LLaVA models)
+* [Ultralytics YOLO](https://docs.ultralytics.com/)
+* [Transformers (HuggingFace)](https://huggingface.co/docs/transformers/index)
+* DJI SDK/Cloud API or simulation mode
+* OpenAI GPT-4o API key
+
 This repo is related to implementation of highway accident management system that was implemented using hardware
 
 
@@ -75,20 +86,8 @@ The pipeline consists of the following stages (see attached figures):
    * All generated scene descriptions are collectively summarized using GPT-4o mini.
    * The output is a concise, actionable incident summary and suggested emergency response (e.g., deploy ambulance, secure area), ready for dispatch to rescue teams or traffic management centers.
 
----
-
-## Visual Pipeline
-
-Below are diagrams summarizing the workflow:
-
-1. **Step-by-step Example**
-   ![Pipeline Example](170ce7a7-cc93-4526-a90e-df2a8073658d.png)
-
-2. **Block Diagram**
-   ![Block Diagram](db8e7ca3-4b54-4249-bb8d-90660afc1ef0.png)
-
----
-
+ 
+ 
 ## Key Components
 
 ### 1. **DJI Matrice 30T Integration**
@@ -116,16 +115,7 @@ Below are diagrams summarizing the workflow:
 
 ---
 
-## Usage Instructions
 
-### **Prerequisites**
-
-* Python 3.8+ environment
-* NVIDIA GPU (recommended for YOLO and LLaVA models)
-* [Ultralytics YOLO](https://docs.ultralytics.com/)
-* [Transformers (HuggingFace)](https://huggingface.co/docs/transformers/index)
-* DJI SDK/Cloud API or simulation mode
-* OpenAI GPT-4o API key
 
 ### **Quick Start**
 
@@ -190,25 +180,12 @@ Below are diagrams summarizing the workflow:
 
 ---
 
-## Citation
-
-If you use this system or codebase for research, please cite:
-
-```
-@article{YourPaper2024,
-  title={Autonomous Drone-Based Highway Incident Management Using Multi-Modal Vision-Language Models},
-  author={Your Name et al.},
-  journal={Your Journal / Conference},
-  year={2024}
-}
-```
-
----
+ 
 
 ## Contact
 
-* \[Your Name], \[Your Affiliation]
-* [your.email@domain.com](mailto:your.email@domain.com)
+* \[Afaq@jbnu.ac.kr], \[Jeonbuk Nationanl University, South Korea]
+
 
 ---
 
