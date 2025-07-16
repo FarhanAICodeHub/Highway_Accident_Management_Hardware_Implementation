@@ -21,7 +21,7 @@ This repo is related to implementation of highway accident management system tha
 1. **Clone the Repository**
 
    ```sh
-   git clone  https://github.com/afaq005/HighwayAccident Management Hardware Implementation.git
+   git clone  https://github.com/afaq005/Highway_Accident_Management_Hardware_Implementation.git
    cd autonomous-highway-incident
    ```
 
