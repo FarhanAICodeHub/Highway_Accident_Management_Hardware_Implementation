@@ -14,7 +14,7 @@ with open(file_path, "r") as file:
 def summarize_text(text):
     try:
         response = openai.ChatCompletion.create(
-            model="gpt-4o-mini-tts", #"gpt-4-turbo",  # Specify gpt-4-turbo for cost-effective usage
+            model="gpt-4o-mini", #"gpt-4-turbo",  # Specify gpt-4-turbo for cost-effective usage
             messages=[#{"role": "system", "content": "You are an expert accident response supervisor."},
                 {"role": "user", "content": f"This is related to highway accident response. You'll be provided accident descriptions(around 10, same accident).\nYou're acting as the supervisor, That'll first describe the accident scene in two lines(This contains accident alert level and summary) and then guide the team for suggested health/emergency related responses(max two lines, these can be related to rescue, ambulance, disaster or police team).Description text from accident is :\n\n{text}"}],
             max_tokens=200,  # Limit tokens to keep it concise        
