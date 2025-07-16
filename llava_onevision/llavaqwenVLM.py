@@ -3,7 +3,7 @@ import torch
 from PIL import Image
 from transformers import AutoProcessor, LlavaOnevisionForConditionalGeneration
 
-# Set the model ID and specify the GPU  
+# Set the model ID and specify the GPU here
 model_id = "llava-hf/llava-onevision-qwen2-0.5b-ov-hf"
 model = LlavaOnevisionForConditionalGeneration.from_pretrained(
     model_id, 
