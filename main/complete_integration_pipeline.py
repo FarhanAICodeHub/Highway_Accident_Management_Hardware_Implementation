@@ -257,5 +257,5 @@ if __name__ == "__main__":
 # Instructions:
 # - Set USE_TEST_VIDEO = False for live drone/RTSP stream.
 # - Replace model paths, API keys, and file paths for your system.
-# - Place this script at the root of your project and run with: python script_name.py
+# - Place this script at the root of your project
 # - For drone integration, insert DJI SDK logic into fly_dji_m30t_to_coords.
