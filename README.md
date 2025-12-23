@@ -206,5 +206,5 @@ experimentation, and manuscript preparation.
 
 ---
 
-**This project demonstrates the practical value of multi-modal AI for real-world safety-critical infrastructure. For feedback or collaboration, feel free to open an issue or contact the author.**
+**This project demonstrates the practical value of multi-modal AI for real-world safety-critical infrastructure. For feedback or collaboration, feel free to open an issue or contact the authors.**
 
