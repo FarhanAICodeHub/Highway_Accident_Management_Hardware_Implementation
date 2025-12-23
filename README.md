@@ -27,6 +27,15 @@ This project presents a fully autonomous highway accident management system powe
 This solution aims to reduce incident response times and maximize situational awareness for highway safety teams and first responders.
 
 ---
+## Related Publication
+
+**Eesaar Hassan**, **Afaq Ahmed**, **Farhan Muhammad**    
+*Multi-Modal Autonomous Drone System for Real-Time Highway Incident Detection and Analysis*  
+IEEE, 2025.
+
+📄 **IEEE Xplore (Published Paper):**  
+https://ieeexplore.ieee.org/abstract/document/11208573
+
  
 
 ## System Workflow
@@ -173,10 +182,26 @@ The pipeline consists of the following stages (see attached figures):
 
 
  
+## Author Contribution Statement
+
+All authors contributed equally to system design, implementation,
+experimentation, and manuscript preparation.
 
 ## Contact
 
-* \[Afaq@jbnu.ac.kr], \[Jeonbuk Nationanl University, South Korea]
+**Corresponding Authors (Equal Contribution):**
+
+- **Farhan Muhammad**  
+  Email: m.farhan777@jbnu.ac.kr  
+  Affiliation: Jeonbuk National University, South Korea
+
+- **Afaq Ahmed**  
+  Email: afaq@jbnu.ac.kr  
+  Affiliation: Jeonbuk National University, South Korea
+
+- **Eesaar Hassan**  
+  Email: hassan.essar@gmail.com
+
 
 
 ---
